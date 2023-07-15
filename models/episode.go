@@ -1,5 +1,7 @@
 package models
 
+import "time"
+
 type Episode struct {
 	ID          int         `json:"id"`
 	Title       string      `json:"title"`
